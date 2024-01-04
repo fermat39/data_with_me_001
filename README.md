@@ -11,6 +11,10 @@
 
 오류나 추가 기능이 있으면, fermat39@naver.com로 알려주시면 수정 및 반영하겠습니다.
         
-streamlit, pandas, matplotlib로 만든 소스코드도 곧 공개하겠습니다! 감사합니다.
+streamlit, pandas, matplotlib로 만든 소스코드는 
+
+https://github.com/fermat39/data_with_me_001에 공개하였습니다!
+
+감사합니다.
 
 출처 : https://www.data.go.kr/data/15028252/fileData.do
