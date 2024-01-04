@@ -114,7 +114,7 @@ st.info("""이 데이터는 공공데이터포털(www.data.go.kr)에 공개된 �
         
 streamlit, pandas, matplotlib로 만든 소스코드는 
 
-https://github.com/fermat39/data_with_me_001에 공개하였습니다!
+https://github.com/fermat39/data_with_me_001 에 공개하였습니다!
 
 출처 : https://www.data.go.kr/data/15028252/fileData.do
 """)
