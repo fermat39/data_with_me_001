@@ -9,7 +9,7 @@ from datetime import datetime
 pd.options.display.max_colwidth = 2000
 pd.set_option('mode.chained_assignment', None)
 
-font_path = './font/SKYBORI.ttf'
+font_path = 'SKYBORI.ttf'
 fm.fontManager.addfont(font_path)
 font_name = fm.FontProperties(fname=font_path).get_name()
 plt.rcParams['axes.unicode_minus'] = False
@@ -47,7 +47,7 @@ def draw_table(df_detail_title, index_type):
 
     return plt
 
-df = pd.read_csv("./data/한국장학재단_학자금지원정보(대학생)_20231222.csv", encoding='CP949')
+df = pd.read_csv("한국장학재단_학자금지원정보(대학생)_20231222.csv", encoding='CP949')
 
 df["기준날짜"] = pd.to_datetime(datetime.now().strftime("%Y-%m-%d"))
 df["모집종료일"] = pd.to_datetime(df["모집종료일"])
